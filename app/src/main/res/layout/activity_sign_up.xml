@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#0f0f0f"
+
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+
+        <EditText
+
+            android:background="@drawable/edittextstyle"
+            android:hint="User Name"
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+
+            android:background="@drawable/edittextstyle"
+            android:hint="Email"
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+
+            android:background="@drawable/edittextstyle"
+            android:hint="Password"
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:textSize="20dp"
+            android:id="@+id/idbtn"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/buttonstyle"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="Sign Up"
+            android:onClick="btnClick"/>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/hearts"
+            android:layout_marginTop="25dp"
+            >
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>>
+</LinearLayout>
